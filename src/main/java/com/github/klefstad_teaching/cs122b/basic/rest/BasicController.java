@@ -18,4 +18,12 @@ public class BasicController
         this.config = config;
         this.validate = validate;
     }
+
+    public BasicServiceConfig getConfig() {
+        return config;
+    }
+
+    public Validate getValidate() {
+        return validate;
+    }
 }
